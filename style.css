@@ -156,3 +156,58 @@ blockquote .cite {
   margin-top: 1.5em;
   text-align: right;
 }
+
+/* ------ Fourth Section ------ */
+
+.four-container {
+  display: flex;
+  justify-content: center;
+}
+
+.fourth-sub-container {
+  background-color: #3882f6;
+  padding: 3em 7em;
+  margin: 7em 15em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: solid 2px #3882f6;
+  border-radius: 1.5%;
+}
+
+.fourth-content-container {
+  flex-basis: 80%;
+}
+
+.fourth-btn-container {
+  flex-basis: 20%;
+}
+
+.fourth-header {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.fourth-content {
+  color: #e5e7eb;
+}
+
+.sign-btn2 {
+  color: #e5e7eb;
+  border: solid 2px #ffffff;
+  border-radius: 13%;
+  padding: 0.35em 1.75em;
+}
+
+/* ------ Footer ------ */
+
+footer {
+  background-color: #1f2937;
+  padding: 2.5em;
+}
+
+footer p {
+  color: #e5e7eb;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
