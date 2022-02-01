@@ -7,9 +7,83 @@
 
 a {
   text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 ul,
 li {
   list-style-type: none;
+}
+
+.fakeimg {
+  height: 200px;
+  width: 550px;
+  margin-top: 5em;
+  background-color: rgb(170, 170, 170);
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 5em;
+  color: #f9faf8;
+  margin-top: 0.5em;
+}
+
+.main-title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 1em;
+}
+
+.fakeimg p {
+  color: white;
+  text-align: center;
+  padding: 100px;
+}
+
+.hero-container {
+  background-color: #1f2937;
+  padding-bottom: 5em;
+}
+
+.hero-sub-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: 0 auto;
+  gap: 80px;
+}
+
+.hero-content-container {
+  flex-basis: 30%;
+  flex: 1 1;
+}
+
+.nav-img-container {
+  flex-basis: 70%;
+  flex: 1 1;
+}
+
+.nav-container ul {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-top: 1em;
+}
+
+.nav-container a {
+  padding: 1em;
+}
+
+.sign-btn {
+  background-color: #3882f6;
+  border-radius: 5%;
+  padding: 0.5em 1.7em;
 }
