@@ -16,6 +16,8 @@ li {
   list-style-type: none;
 }
 
+/* ------ Hero and Nav ------ */
+
 .fakeimg {
   height: 200px;
   width: 550px;
@@ -86,4 +88,71 @@ li {
   background-color: #3882f6;
   border-radius: 5%;
   padding: 0.5em 1.7em;
+}
+
+/* ------ Second Section ------ */
+
+.second-title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.25em;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+span {
+  border: solid 2.5px rgb(109, 155, 255);
+  border-radius: 10%;
+  padding: 4em;
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10em;
+}
+
+.flex-container2 p {
+  flex-basis: 12%;
+  text-align: center;
+  margin-top: 0.5em;
+  color: #7b7d81;
+}
+
+/* ------ Third Section ------ */
+
+.third-container {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-container {
+  flex-basis: 64%;
+}
+
+blockquote {
+  text-align: left;
+  padding: 7em;
+}
+
+blockquote .quote {
+  font-size: 36px;
+  font-weight: 100;
+  color: #1f2937;
+}
+
+blockquote .cite {
+  font-weight: bolder;
+  font-size: 1.25rem;
+  margin-top: 1.5em;
+  text-align: right;
 }
